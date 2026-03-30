@@ -1,9 +1,12 @@
 {
-  "name": "@wiedymi/libghostty-ohos",
+  "name": "libghostty-ohos",
   "version": "0.1.0",
   "description": "HarmonyOS terminal surface and controller powered by libghostty-vt",
   "main": "Index.ets",
-  "author": "",
+  "author": {
+    "name": "wiedymi",
+    "url": "https://github.com/wiedymi"
+  },
   "license": "MIT",
   "dependencies": {}
 }

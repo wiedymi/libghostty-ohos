@@ -4,7 +4,7 @@
 
 This repository contains a HarmonyOS terminal library and a minimal example app:
 
-- `libghostty_ohos/`: reusable HAR module published as `@wiedymi/libghostty-ohos`
+- `libghostty_ohos/`: reusable HAR module published as `libghostty-ohos`
 - `example/`: example app that consumes the HAR and provides shell / PTY / SSH wiring
 - `tools/build-ghostty-vt-docker.sh`: rebuilds the bundled native `libghostty_vt.a` archive in Docker
 

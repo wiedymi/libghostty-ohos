@@ -1,6 +1,6 @@
 # libghostty-ohos
 
-`@wiedymi/libghostty-ohos` is a HarmonyOS `HAR` library for embedding a terminal surface in your own app.
+`libghostty-ohos` is a HarmonyOS `HAR` library for embedding a terminal surface in your own app.
 
 It packages a native renderer, a Ghostty-powered terminal core, and a small ArkTS control surface. You bring the app-level UX: tabs, splits, settings, toolbar actions, session management, and persistence.
 
@@ -30,7 +30,7 @@ Add the HAR as a dependency in your consuming module:
 ```json5
 {
   "dependencies": {
-    "@wiedymi/libghostty-ohos": "file:../libghostty_ohos"
+    "libghostty-ohos": "file:../libghostty_ohos"
   }
 }
 ```
@@ -41,12 +41,12 @@ Then install dependencies:
 ohpm install
 ```
 
-If your project enables normalized OHM URLs, keep the dependency key exactly equal to the package name: `@wiedymi/libghostty-ohos`.
+If your project enables normalized OHM URLs, keep the dependency key exactly equal to the package name: `libghostty-ohos`.
 
 ## Quick Start
 
 ```ts
-import { TerminalController, TerminalSurface } from '@wiedymi/libghostty-ohos';
+import { TerminalController, TerminalSurface } from 'libghostty-ohos';
 
 @Entry
 @Component
@@ -78,7 +78,7 @@ struct TerminalPage {
 
 ## Public API
 
-Exported from `@wiedymi/libghostty-ohos`:
+Exported from `libghostty-ohos`:
 
 - `TerminalSurface`
 - `TerminalController`

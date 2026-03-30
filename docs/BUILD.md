@@ -151,7 +151,7 @@ This only affects packaging the `example` app. Building the `libghostty_ohos` HA
 This verifies both:
 
 - the `libghostty_ohos` HAR module
-- the `example` app that imports `@wiedymi/libghostty-ohos`
+- the `example` app that imports `libghostty-ohos`
 
 ## Headless Emulator Loop
 

@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-This project redistributes or links third-party software and assets as part of the `@wiedymi/libghostty-ohos` HarmonyOS library.
+This project redistributes or links third-party software and assets as part of the `libghostty-ohos` HarmonyOS library.
 
 This notice is organized by how each dependency enters the build:
 

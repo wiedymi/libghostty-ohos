@@ -1,6 +1,6 @@
 # Usage Guide
 
-This guide covers the current public API of `@wiedymi/libghostty-ohos`.
+This guide covers the current public API of `libghostty-ohos`.
 
 ## Install The HAR
 
@@ -9,7 +9,7 @@ In the consuming module's `oh-package.json5`:
 ```json5
 {
   "dependencies": {
-    "@wiedymi/libghostty-ohos": "file:../libghostty_ohos"
+    "libghostty-ohos": "file:../libghostty_ohos"
   }
 }
 ```
@@ -27,7 +27,7 @@ import {
   DEFAULT_TERMINAL_CONFIG,
   TerminalController,
   TerminalSurface
-} from '@wiedymi/libghostty-ohos';
+} from 'libghostty-ohos';
 
 @Entry
 @Component
@@ -127,7 +127,7 @@ Create one controller per terminal instance.
 For tabs or splits, create one controller per terminal and give every surface a distinct ID pair.
 
 ```ts
-import { TerminalController, TerminalSurface } from '@wiedymi/libghostty-ohos';
+import { TerminalController, TerminalSurface } from 'libghostty-ohos';
 
 @Component
 struct SplitTerminalPage {
