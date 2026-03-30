@@ -4,6 +4,9 @@
 
 It packages a native renderer, a Ghostty-powered terminal core, and a small ArkTS control surface. You bring the app-level UX: tabs, splits, settings, toolbar actions, session management, and persistence.
 
+<img width="3120" height="2080" alt="Screenshot_2026-03-30T221237" src="https://github.com/user-attachments/assets/42905cc8-2233-438d-a6e3-d461f7da06ce" />
+
+
 ## What This Library Provides
 
 - `TerminalSurface`: an ArkTS component backed by an `XComponent` surface
