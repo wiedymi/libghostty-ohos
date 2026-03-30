@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+*.sh text eol=lf
+*.ets text eol=lf
+*.ts text eol=lf
+*.json5 text eol=lf
+*.md text eol=lf
+
+*.a binary
+*.app binary
+*.hap binary
+*.har binary
+*.hsp binary
+*.so binary
+*.ttf binary

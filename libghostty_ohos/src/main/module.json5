@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "libghostty_ohos",
+    "type": "har",
+    "description": "Reusable HarmonyOS terminal library powered by libghostty-vt",
+    "deviceTypes": [
+      "default",
+      "2in1"
+    ]
+  }
+}

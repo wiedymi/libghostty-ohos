@@ -1,0 +1,54 @@
+{
+  // App signing is intentionally omitted from version control.
+  // Add local signing configuration before packaging the example app.
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "compileSdkVersion": 20,
+        "compatibleSdkVersion": 12,
+        "targetSdkVersion": 20,
+        "runtimeOS": "OpenHarmony",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "libghostty_ohos",
+      "srcPath": "./libghostty_ohos",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "example",
+      "srcPath": "./example",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

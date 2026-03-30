@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# HarmonyOS / DevEco / ohpm
+.hvigor/
+.appanalyzer/
+.ohos/
+oh_modules/
+node_modules/
+local.properties
+*.hvigor-task-names.log
+signature/
+build-profile.local.json5
+**/build/
+**/.test/
+**/.preview/
+**/BuildProfile.ets
+**/third_party/
+
+# Local native build caches
+.cxx/
+.cache/
+tmp/
+.tmp/
+
+# Generated packages and archives
+*.app
+*.hap
+*.har
+*.hsp
+*.tgz
+*.tar.xz
+
+# Generated upstream terminal archive
+libghostty_ohos/prebuilt/*/libghostty_vt.a
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Keep repo-owned tool configuration
+!.clangd
+!.clang-tidy

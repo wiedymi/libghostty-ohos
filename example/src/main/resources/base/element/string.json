@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Example app for the libghostty-ohos HarmonyOS terminal library"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Basic example host for libghostty-ohos"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "libghostty-ohos Example"
+    }
+  ]
+}

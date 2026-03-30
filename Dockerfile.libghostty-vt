@@ -1,0 +1,24 @@
+FROM alpine:3.20
+
+RUN printf '%s\n' \
+      'https://dl-cdn.alpinelinux.org/alpine/edge/main' \
+      'https://dl-cdn.alpinelinux.org/alpine/edge/community' \
+      > /etc/apk/repositories
+
+RUN apk update \
+    && apk add --no-cache \
+        build-base \
+        ca-certificates \
+        cmake \
+        file \
+        git \
+        ninja-build \
+        pkgconf \
+        xz \
+        zig=0.15.2-r0
+
+RUN zig version
+
+WORKDIR /workspace
+
+CMD ["sh"]
