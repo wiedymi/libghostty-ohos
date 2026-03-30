@@ -25,12 +25,12 @@ Current behavior is intentionally small: one `TerminalController` controls one t
 
 ## Install
 
-Add the HAR as a dependency in your consuming module:
+Add the HAR from OHPM in your consuming module:
 
 ```json5
 {
   "dependencies": {
-    "libghostty-ohos": "file:../libghostty_ohos"
+    "libghostty-ohos": "^0.1.0"
   }
 }
 ```
@@ -39,6 +39,16 @@ Then install dependencies:
 
 ```sh
 ohpm install
+```
+
+For local development, you can also add the HAR as a file dependency:
+
+```json5
+{
+  "dependencies": {
+    "libghostty-ohos": "file:../libghostty_ohos"
+  }
+}
 ```
 
 If your project enables normalized OHM URLs, keep the dependency key exactly equal to the package name: `libghostty-ohos`.

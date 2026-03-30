@@ -10,12 +10,12 @@ It provides:
 
 ## Install
 
-Add the HAR as a dependency:
+Add the package from OHPM:
 
 ```json5
 {
   "dependencies": {
-    "libghostty-ohos": "file:../libghostty_ohos"
+    "libghostty-ohos": "^0.1.0"
   }
 }
 ```
@@ -24,6 +24,16 @@ Then install dependencies:
 
 ```sh
 ohpm install
+```
+
+For local development, you can also add the HAR as a file dependency:
+
+```json5
+{
+  "dependencies": {
+    "libghostty-ohos": "file:../libghostty_ohos"
+  }
+}
 ```
 
 ## Basic Usage
