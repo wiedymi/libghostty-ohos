@@ -10,7 +10,13 @@ It provides:
 
 ## Install
 
-Add the package from OHPM:
+Install the package from OHPM:
+
+```sh
+ohpm install libghostty-ohos
+```
+
+Or add it manually in your dependency list:
 
 ```json5
 {
@@ -20,7 +26,7 @@ Add the package from OHPM:
 }
 ```
 
-Then install dependencies:
+Then run:
 
 ```sh
 ohpm install

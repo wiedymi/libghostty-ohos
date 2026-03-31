@@ -25,7 +25,13 @@ Current behavior is intentionally small: one `TerminalController` controls one t
 
 ## Install
 
-Add the HAR from OHPM in your consuming module:
+Install the package from OHPM:
+
+```sh
+ohpm install libghostty-ohos
+```
+
+Or add the HAR from OHPM in your consuming module:
 
 ```json5
 {
@@ -35,7 +41,7 @@ Add the HAR from OHPM in your consuming module:
 }
 ```
 
-Then install dependencies:
+Then run:
 
 ```sh
 ohpm install
