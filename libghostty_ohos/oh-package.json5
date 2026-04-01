@@ -1,8 +1,19 @@
 {
   "name": "libghostty-ohos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "HarmonyOS terminal surface and controller powered by libghostty-vt",
   "main": "Index.ets",
+  "keywords": [
+    "terminal",
+    "harmonyos",
+    "ohos",
+    "har",
+    "ghostty",
+    "xcomponent",
+    "ime"
+  ],
+  "homepage": "https://github.com/wiedymi/libghostty-ohos",
+  "repository": "https://github.com/wiedymi/libghostty-ohos",
   "author": {
     "name": "wiedymi",
     "url": "https://github.com/wiedymi"
